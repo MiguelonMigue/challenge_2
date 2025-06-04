@@ -22,7 +22,7 @@ public class Main {
             }
         }
         public static Conversor obtenerDatos() throws IOException, InterruptedException{
-            String url = "https://api.fastforex.io/fetch-all?api_key=c2ab4bd770-421ef77658-swb7b4&from=USD";
+            String url = "https://api.fastforex.io/fetch-all?api_key=MI_API_KEY";
 
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
